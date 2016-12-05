@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "5b4135adf78c3f137e4f3ec71d158263",
+    "content-hash": "1b412069bc8bad5f2905fe3e0e05f38d",
+    "packages": [
+        {
+            "name": "yswery/dns",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yswery/PHP-DNS-SERVER.git",
+                "reference": "b752e39a88bb8afd018fa13ee5086250a1a12b98"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yswery/PHP-DNS-SERVER/zipball/b752e39a88bb8afd018fa13ee5086250a1a12b98",
+                "reference": "b752e39a88bb8afd018fa13ee5086250a1a12b98",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/php-code-coverage": "~2.0",
+                "phpunit/phpunit": "~4.3",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "yswery\\DNS\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gary Saunders",
+                    "email": "gary@codenamegary.com"
+                },
+                {
+                    "name": "Yif Swery",
+                    "email": "yiftachswr@gmail.com"
+                }
+            ],
+            "description": "A DNS server implementation in pure PHP.",
+            "time": "2014-12-08 11:09:36"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

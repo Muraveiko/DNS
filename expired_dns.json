@@ -1,0 +1,24 @@
+{
+    "server" :
+    {
+        "ip" : "127.0.0.1",
+        "name": "ns1.expired.test.com"
+    }, 
+    "defaults": {
+        "A": "192.168.1.1",
+        "NS": [
+		"ns1.expired.test.com", 
+		"ns2.expired.test.com"
+		],
+        "AAAA": "DEAD:01::BEEF",
+	"SOA": {
+			"mname": "ns1.expired.test.com",
+			"rname": "admin.test.com",
+			"serial": "2014111100",
+			"retry": "7200",
+			"refresh": "1800",
+			"expire": "8600",
+			"minimum-ttl": "300"
+		}
+    }
+}

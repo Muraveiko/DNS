@@ -1,0 +1,14 @@
+{
+  "name" : "expired-dns",
+  "version": "1.0.0",
+  "minimum-stability" : "dev",
+  "require": {
+    "yswery/dns": "*"
+  },
+  "autoload": {
+        "psr-4": {
+            "Muraveiko\\DNS\\": "src/"
+        }
+    }
+
+}
